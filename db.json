@@ -1,0 +1,110 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "username": "steven",
+      "email": "steven@gmail.com",
+      "password": "123",
+      "role": "Admin",
+      "phoneNumber": "12351451",
+      "address": "123"
+    },
+    {
+      "username": "test",
+      "email": "test123@gmail.com",
+      "password": "123",
+      "role": "Admin",
+      "phoneNumber": "123",
+      "address": "123",
+      "id": 2
+    }
+  ],
+  "Movies": [
+    {
+      "title": "Spiderman No Way Home",
+      "slug": "Spiderman-No-Way-Home",
+      "synopsis": "The Journey of young hero called spiderman to fight for his life and family yo be the one",
+      "trailerUrl": "https://www.youtube.com/embed/JfVOs4VSpmA",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_FMjpg_UX1000_.jpg",
+      "rating": 8,
+      "authorId": 1,
+      "genreId": 1,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "title": "Batman vs Superman",
+      "slug": "Batman-vs-Superman",
+      "synopsis": "Fight between hero for a city",
+      "trailerUrl": "https://www.youtube.com/embed/0WWzgGyAH6Y",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+      "rating": 4,
+      "genreId": 1,
+      "authorId": 1
+    },
+    {
+      "id": 3,
+      "title": "Avengers: End Game",
+      "slug": "Avengers:-End-Game",
+      "synopsis": "Hero fight for their city from other planet attack",
+      "trailerUrl": "https://www.youtube.com/embed/TcMBFSGVi1c",
+      "imgUrl": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/avengersendgame_lob_crd_05.jpg",
+      "rating": 9,
+      "genreId": 1,
+      "authorId": 1
+    },
+    {
+      "title": "Logan",
+      "slug": "logan",
+      "synopsis": "Wolverine going old",
+      "trailerUrl": "https://www.youtube.com/embed/RH3OxVFvTeg",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/id/a/a6/Loganposter2.jpg",
+      "rating": "7",
+      "authorId": 1,
+      "genreId": 1,
+      "id": 4
+    }
+  ],
+  "Genres": [
+    {
+      "id": 1,
+      "name": "Fiction"
+    },
+    {
+      "id": 2,
+      "name": "Drama"
+    },
+    {
+      "id": 3,
+      "name": "Horror"
+    },
+    {
+      "id": 4,
+      "name": "Comedy"
+    },
+    {
+      "id": 5,
+      "name": "Action"
+    }
+  ],
+  "Casts": [
+    {
+      "id": 1,
+      "movieId": 1,
+      "name": "Tom Holland",
+      "profilePict": "https://cdn0-production-images-kly.akamaized.net/4o-_BfMqnt6hfGGgdg2h6FAGtbo=/1200x900/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2384775/original/028407600_1539683917-Tom_Holland_1.jpg"
+    },
+    {
+      "id": 2,
+      "movieId": 1,
+      "name": "Andrew Garfiled",
+      "profilePict": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Andrew_Garfield_by_Gage_Skidmore_%28cropped%29.jpg"
+    },
+    {
+      "name": "123",
+      "profilePict": "123",
+      "movieId": "1",
+      "id": 3
+    }
+  ]
+}
